@@ -13,7 +13,10 @@ def double_number(a):
     >>> double_number(2.5)
     5.0
     """
-    return a+a
+    print(f'value before double_number(): {a}')
+    result = a+a
+    print(f'value after double_number(): {result}')
+    return result
 
 def square_number(a):
     """
@@ -26,4 +29,8 @@ def square_number(a):
     >>> square_number(2)
     4
     """
-    return a*a
+    print(f'value before square_number(): {a}')
+    result = a*a
+    print(f'value after square_number(): {result}')
+    return result
+

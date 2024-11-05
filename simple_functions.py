@@ -1,5 +1,5 @@
 # Custom python functions
-
+  
 def double_number(a):
     """
     Doubles the number
